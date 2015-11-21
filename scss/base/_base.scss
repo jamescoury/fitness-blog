@@ -41,3 +41,10 @@ footer {
     margin-top: $thin-pad;
     padding: $pad;
 }
+nav ul {
+    margin-bottom: $pad;
+    
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
