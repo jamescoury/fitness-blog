@@ -1,0 +1,140 @@
+/* line 4, ../scss/vendors/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../scss/vendors/neat/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/*  ---------------  LAYOUT VARIABLES  -----  */
+/*  ---------------  COLOR VARIABLES  -----  */
+/* off-white #fefefa */
+/* mid-grey #444 */
+/* super-light-grey #F7F7F7 */
+/* grey #ccc */
+/* blue 0aa7fa */
+/* green #bada55 */
+/* green bada55 0.3 opacity */
+/*  ---------------  TYPOGRAPHY VARIABLES  -----  */
+/*  ---------------  RESET  -----  */
+/* line 4, ../scss/base/_reset.scss */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 11, ../scss/base/_reset.scss */
+nav li {
+  list-style: none;
+  line-height: 2em;
+}
+
+/*  ---------------  BASE  -----  */
+/* line 4, ../scss/base/_base.scss */
+body {
+  padding: 21px 0 51px 0;
+  font-family: helvetica, sans-serif;
+  color: #444444;
+  background-color: #fefefa;
+}
+
+/* line 10, ../scss/base/_base.scss */
+main,
+footer {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  border-radius: 11px;
+  background-clip: padding-box;
+  padding: 11px;
+}
+
+/* line 19, ../scss/base/_base.scss */
+footer {
+  margin-top: 11px;
+}
+
+/* line 22, ../scss/base/_base.scss */
+h1 {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 26, ../scss/base/_base.scss */
+p {
+  line-height: 1.5em;
+}
+
+/* line 29, ../scss/base/_base.scss */
+.tight {
+  margin: 0;
+  padding: 0;
+}
+
+/*  ---------------  LINKS  -----  */
+/* line 36, ../scss/base/_base.scss */
+a,
+a:visited {
+  color: #0aa7fa;
+}
+
+/*  ---------------  FOOTER  -----  */
+/* line 43, ../scss/base/_base.scss */
+footer {
+  padding: 21px;
+}
+
+/*  ---------------  RESPONSIVE VIDEO  -----  */
+/* line 2, ../scss/components/_video.scss */
+.video {
+  border: 3px solid #0aa7fa;
+  margin: 17px 0;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+
+/* line 8, ../scss/components/_video.scss */
+.video-wrapper {
+  position: relative;
+  /* magic-number: 16:9 aspect ratio */
+  padding-bottom: 56.78%;
+  padding-top: 0;
+  height: 0;
+  margin-bottom: 11px;
+}
+
+/* line 16, ../scss/components/_video.scss */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+/*  ---------------  BLOG PREVIEW  -----  */
+/* line 4, ../scss/components/_blog-preview.scss */
+section {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-clip: padding-box;
+  padding: 21px;
+  margin-bottom: 11px;
+}
+
+/* line 11, ../scss/components/_blog-preview.scss */
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 14, ../scss/components/_blog-preview.scss */
+section.special {
+  border: 1px solid #bada55;
+  background-color: rgba(186, 218, 85, 0.03);
+}
