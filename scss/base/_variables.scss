@@ -14,10 +14,13 @@ $fat-border: 3px solid;
 $font: helvetica, sans-serif;
 
 /*  ---------------  COLOR VARIABLES  -----  */
-$background: rgba(254, 254, 250, 1); /* off-white #fefefa */
+// Unused Colors
+// rgba(254, 254, 250, 1); /* off-white #fefefa */
+$background: rgba(44, 44, 44, 1); /* dark-grey #2c2c2c */
 $type: rgba(68, 68, 68, 1); /* mid-grey #444 */
 $content-background: rgba(247, 247, 247, 1); /* super-light-grey #F7F7F7 */
 $blog-background: rgba(204, 204, 204, 1); /* grey #ccc */
 $action: rgba(10, 167, 250, 1); /* blue 0aa7fa */
 $highlight: rgba(186, 218, 85, 1); /* green #bada55 */
 $highlight-faded: rgba(186, 218, 85, 0.03); /* green bada55 0.3 opacity */
+

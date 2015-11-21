@@ -27,10 +27,19 @@ module.exports = function(grunt) {
                     'cssmin'
                 ]
             },
+            uglify: {
+                files: [
+                    'js/app.js'
+                ],
+                tasks: [
+                    'uglify'
+                ]
+            },
             all: {
                 files: [
                     '**/*.html',
-                    '**/*.css'                  
+                    '**/*.css',
+                    '**/*.js'                  
                 ],
                 tasks: [
                     'open'
@@ -58,6 +67,12 @@ module.exports = function(grunt) {
                 dest: 'css/main.min.css'
             }
         },
+        uglify: {
+            my_target: {
+                src: 'js/app.js',
+                dest: 'js/app.min.js'
+            }
+        },
         open: {
             all: {
                 // path: 'http://localhost:<%= express.all.options.port%>/index.html'
@@ -72,6 +87,7 @@ module.exports = function(grunt) {
         'sass',
         'cssmin',
         'express',
+        'uglify',
         // 'open',
         'express-keepalive'
     ]);
