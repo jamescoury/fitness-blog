@@ -61,7 +61,7 @@ module.exports = function(grunt) {
         open: {
             all: {
                 // path: 'http://localhost:<%= express.all.options.port%>/index.html'
-                path: 'file:///Users/jamescoury/Dropbox/blog2/index.html',
+                path: 'file:///Users/jamescoury/Dropbox/blog/index.html',
                 app: 'Google Chrome'
             }
         }
