@@ -12,12 +12,13 @@
     margin-bottom: $thin-pad;
     padding-top: 0;
     padding-bottom: 56.78%;
-}
-.video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    margin-top: 0;
+
+    & iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
 }

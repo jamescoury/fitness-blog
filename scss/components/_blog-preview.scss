@@ -7,11 +7,13 @@ section {
     border: $border $blog-background;
     border-radius: $curve;
     background-clip: padding-box;
-}
-section:last-of-type {
-    margin-bottom: 0;
-}
-section.special {
-    border: $border $highlight;    
-    background-color: $highlight-faded;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    &.special {
+        border: $border $highlight;    
+        background-color: $highlight-faded;
+    }
 }

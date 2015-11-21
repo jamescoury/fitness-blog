@@ -16,9 +16,6 @@ footer {
     background-color: $content-background;
     background-clip: padding-box;
 }
-footer {
-    margin-top: $thin-pad;
-}
 h1 {
     margin-bottom: 1em;  
     font-size: 1em;
@@ -41,5 +38,6 @@ a:visited {
 
 /*  ---------------  FOOTER  -----  */
 footer {
+    margin-top: $thin-pad;
     padding: $pad;
 }
