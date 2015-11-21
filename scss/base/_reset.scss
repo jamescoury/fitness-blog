@@ -1,0 +1,14 @@
+// Reset
+
+/*  ---------------  RESET  -----  */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav li {
+    list-style: none;
+    line-height: 2em;
+}

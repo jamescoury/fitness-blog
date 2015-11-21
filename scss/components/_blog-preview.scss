@@ -1,0 +1,17 @@
+// Blog Preview
+
+/*  ---------------  BLOG PREVIEW  -----  */
+section {
+    margin-bottom: $thin-pad;
+    padding: $pad;
+    border: $border $blog-background;
+    border-radius: $curve;
+    background-clip: padding-box;
+}
+section:last-of-type {
+    margin-bottom: 0;
+}
+section.special {
+    border: $border $highlight;    
+    background-color: $highlight-faded;
+}

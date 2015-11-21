@@ -1,0 +1,45 @@
+// Base
+
+/*  ---------------  BASE  -----  */
+body {
+    padding: $pad 0 $fat-pad 0;
+    font-family: $font;
+    color: $type;
+    background-color: $background;
+}
+main,
+footer {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: $thin-pad;
+    border-radius: $fat-curve;
+    background-color: $content-background;
+    background-clip: padding-box;
+}
+footer {
+    margin-top: $thin-pad;
+}
+h1 {
+    margin-bottom: 1em;  
+    font-size: 1em;
+}
+p {
+    line-height: 1.5em;
+}
+.tight {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*  ---------------  LINKS  -----  */
+a,
+a:visited {
+    color: $action;
+}
+
+
+/*  ---------------  FOOTER  -----  */
+footer {
+    padding: $pad;
+}
