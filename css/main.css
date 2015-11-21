@@ -8,6 +8,7 @@ html {
   box-sizing: inherit;
 }
 
+/*  ---------------  VENDOR EDITS  -----  */
 /*  ---------------  LAYOUT VARIABLES  -----  */
 /*  ---------------  TYPOGRAPHY VARIABLES  -----  */
 /*  ---------------  COLOR VARIABLES  -----  */
@@ -138,3 +139,5 @@ section.special {
   border: 1px solid #bada55;
   background-color: rgba(186, 218, 85, 0.03);
 }
+
+/*  ---------------  ARTICLE - SIX PACK ABS WORKOUT  -----  */
